@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:clickable="true"
+              android:focusable="true"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/ranking_tab_button_text"
+            android:background="@drawable/ranking_tab_button_none"
+
+            android:text="성남 모텔"
+            android:paddingBottom="6dp"
+            android:textSize="11sp"
+            android:paddingTop="6dp"
+            android:textStyle="bold"
+            android:textColor="@color/noneSelectedButton"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>

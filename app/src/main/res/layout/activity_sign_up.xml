@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:paddingLeft="22dp"
+              android:paddingRight="22dp"
+              android:paddingTop="15dp"
+              android:paddingBottom="15dp"
+              android:orientation="vertical"
+              android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:gravity="center_vertical">
+
+        <ImageView android:layout_width="18dp" android:layout_height="18dp"
+                   android:id="@+id/back"
+                   android:src="@drawable/back"
+        />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:layout_marginLeft="10dp"
+                  android:textSize="18sp"
+                  android:textColor="@color/black"
+                  android:textStyle="bold"
+                  android:text="회원가입 (1/1)"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+                                                           android:layout_height="wrap_content"
+                                                           app:endIconMode="clear_text"
+                                                           app:hintTextColor="@color/black"
+                                                           app:boxStrokeColor="@color/black"
+                                                           app:boxBackgroundMode="filled"
+                                                           android:layout_marginBottom="35dp"
+                                                           app:boxBackgroundColor="@android:color/transparent"
+                                                           android:layout_marginTop="20dp"
+    >
+
+
+        <com.google.android.material.textfield.TextInputEditText android:layout_width="match_parent"
+                                                                 android:layout_height="50dp"
+                                                                 android:inputType="text"
+                                                                 android:hint="아이디"
+                                                                 android:id="@+id/sign_up_id"
+                                                                 android:privateImeOptions="defaultInputmode=english"
+                                                                 android:imeOptions="actionDone"
+                                                                 android:textCursorDrawable="@drawable/cursor_color"
+                                                                 android:background="@android:color/transparent"
+                                                                 android:gravity="bottom"
+                                                                 android:paddingBottom="5dp"
+
+        >
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                   android:layout_marginRight="15dp"
+                   android:src="@drawable/ic_baseline_warning_24"/>
+
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:textSize="12sp"
+                  android:text="회원 가입시 ID는 반드시 본인 소유의 연락 가능한 이메일 주소를 사용하여야 합니다."
+                  android:textColor="@color/warning"
+        />
+
+    </LinearLayout>
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/disabled_button"
+            android:textColor="@color/white"
+            android:text="가입 신청"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:id="@+id/sign_up_button"
+            android:paddingBottom="8dp"
+    />
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:textSize="11sp"
+              android:textColor="@android:color/darker_gray"
+              android:text="@string/singup_desc"
+    />
+
+</LinearLayout>

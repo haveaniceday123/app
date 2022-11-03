@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:clickable="true"
+              android:focusable="true"
+              android:layout_width="match_parent"
+              android:paddingTop="5dp"
+              android:paddingBottom="5dp"
+              android:gravity="center"
+              android:background="@drawable/ripple_no_border"
+              android:layout_height="wrap_content">
+
+    <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/ripple_item_image"
+            android:layout_gravity="center"
+            android:src="@drawable/hotel5"
+    />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/black"
+              android:layout_marginTop="2dp"
+              android:textSize="10sp"
+              android:id="@+id/ripple_item_text"
+              android:textStyle="bold"
+               />
+
+
+</LinearLayout>

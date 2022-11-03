@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:background="#efefef"
+              android:id="@+id/fragment_internal_container"
+              android:layout_height="match_parent"
+              tools:context=".main.fragment.InternalFragment">
+
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+        >
+
+            <include layout="@layout/layout_banner"/>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+            >
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/motel"
+                                                              app:rippleItemText="모텔"
+                                                              android:layout_marginEnd="5dp"
+                                                              android:layout_weight="1"
+                                                              android:layout_height="wrap_content"/>
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel"
+                                                              app:rippleItemText="호텔"
+                                                              android:layout_weight="1"
+                                                              android:layout_marginEnd="5dp"
+                                                              android:layout_height="wrap_content"/>
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel12"
+                                                              app:rippleItemText="프리미엄호텔"
+                                                              android:layout_weight="1"
+                                                              android:layout_marginEnd="5dp"
+                                                              android:layout_height="wrap_content"/>
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel13"
+                                                              app:rippleItemText="펜션/풀빌라"
+                                                              android:layout_weight="1"
+                                                              android:layout_marginEnd="5dp"
+                                                              android:layout_height="wrap_content"/>
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel14"
+                                                              android:layout_weight="1"
+                                                              app:rippleItemText="프리미엄펜션"
+                                                              android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+
+            >
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel15"
+                                                              app:rippleItemText="리조트"
+                                                              android:layout_marginEnd="5dp"
+                                                              android:layout_weight="1"
+                                                              android:layout_height="wrap_content"/>
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel16"
+                                                              app:rippleItemText="글램핌/캠핑"
+                                                              android:layout_weight="1"
+                                                              android:layout_marginEnd="5dp"
+                                                              android:layout_height="wrap_content"/>
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel17"
+                                                              app:rippleItemText="게하/한옥"
+                                                              android:layout_weight="1"
+                                                              android:layout_marginEnd="5dp"
+                                                              android:layout_height="wrap_content"/>
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel18"
+                                                              app:rippleItemText="호캉스패키지"
+                                                              android:layout_weight="1"
+                                                              android:layout_marginEnd="5dp"
+                                                              android:layout_height="wrap_content"/>
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel19"
+                                                              android:layout_weight="1"
+                                                              app:rippleItemText="호텔특가"
+                                                              android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+            >
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel16"
+                                                              app:rippleItemText="부티크브랜두"
+                                                              android:layout_marginEnd="5dp"
+                                                              android:layout_weight="1"
+                                                              android:layout_height="wrap_content"/>
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel17"
+                                                              app:rippleItemText="야놀자케어"
+                                                              android:layout_weight="1"
+                                                              android:layout_marginEnd="5dp"
+                                                              android:layout_height="wrap_content"/>
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel18"
+                                                              app:rippleItemText="대실할인"
+                                                              android:layout_weight="1"
+                                                              android:layout_marginEnd="5dp"
+                                                              android:layout_height="wrap_content"/>
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel19"
+                                                              app:rippleItemText="펜션특가"
+                                                              android:layout_weight="1"
+                                                              android:layout_marginEnd="5dp"
+                                                              android:layout_height="wrap_content"/>
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel20"
+                                                              android:layout_weight="1"
+                                                              app:rippleItemText="얼리버드쿠폰"
+                                                              android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="13dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+
+            >
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel21"
+                                                              app:rippleItemText="지역여행혜택"
+                                                              android:layout_marginEnd="5dp"
+                                                              android:layout_weight="1"
+                                                              android:layout_height="wrap_content"/>
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel22"
+                                                              app:rippleItemText="부산"
+                                                              android:layout_weight="1"
+                                                              android:layout_marginEnd="5dp"
+                                                              android:layout_height="wrap_content"/>
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel23"
+                                                              app:rippleItemText="제주도"
+                                                              android:layout_weight="1"
+                                                              android:layout_marginEnd="5dp"
+                                                              android:layout_height="wrap_content"/>
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel24"
+                                                              app:rippleItemText="Top랭킹"
+                                                              android:layout_weight="1"
+                                                              android:layout_marginEnd="5dp"
+                                                              android:layout_height="wrap_content"/>
+
+                <org.android.wanolza.main.view.RippleItemView android:layout_width="0dp"
+                                                              app:rippleItemBg="@drawable/hotel25"
+                                                              android:layout_weight="1"
+                                                              app:rippleItemText="더보기"
+                                                              android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@color/white"
+            >
+
+                <LinearLayout
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="20dp"
+                        android:padding="1dp"
+                        android:background="@drawable/ripple_border2"
+                        android:layout_marginBottom="15dp"
+
+                >
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                                  android:background="@drawable/ripple_border"
+                                  android:gravity="center"
+                                  android:orientation="vertical"
+                                  android:layout_marginRight="0.9dp"
+                                  android:paddingTop="5dp"
+                                  android:paddingBottom="5dp"
+                                  android:clickable="true"
+                                  android:focusable="true"
+                    >
+
+                        <ImageView android:layout_width="30dp" android:layout_height="30dp"
+                                   android:src="@drawable/coupons1"
+                                   android:contentDescription="@string/todo"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                  android:text="선착순쿠폰"
+                                  android:layout_marginTop="2dp"
+                                  android:textSize="10sp"
+                                  android:textStyle="bold"
+                                  android:textColor="@color/black"
+
+                        />
+
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                                  android:background="@drawable/ripple_border3"
+                                  android:gravity="center"
+                                  android:orientation="vertical"
+                                  android:layout_marginRight="0.9dp"
+                                  android:paddingTop="5dp"
+                                  android:paddingBottom="5dp"
+                                  android:clickable="true"
+                                  android:focusable="true"
+                    >
+
+                        <ImageView android:layout_width="30dp" android:layout_height="30dp"
+                                   android:src="@drawable/coupons2"
+                                   android:contentDescription="@string/todo"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                  android:text="무한쿠폰룸"
+                                  android:layout_marginTop="2dp"
+                                  android:textSize="10sp"
+                                  android:textStyle="bold"
+                                  android:textColor="@color/black"
+
+                        />
+
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                                  android:background="@drawable/ripple_border"
+                                  android:gravity="center"
+                                  android:orientation="vertical"
+                                  android:layout_marginRight="0.9dp"
+                                  android:paddingTop="5dp"
+                                  android:paddingBottom="5dp"
+                                  android:clickable="true"
+                                  android:focusable="true"
+                    >
+
+                        <ImageView android:layout_width="30dp" android:layout_height="30dp"
+                                   android:src="@drawable/coupons3"
+                                   android:contentDescription="@string/todo"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                  android:text="지금쿠폰받기"
+                                  android:layout_marginTop="2dp"
+                                  android:textSize="10sp"
+                                  android:textStyle="bold"
+                                  android:textColor="@color/black"
+
+                        />
+
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                                  android:background="@drawable/ripple_border3"
+                                  android:gravity="center"
+                                  android:orientation="vertical"
+                                  android:paddingTop="5dp"
+                                  android:paddingBottom="5dp"
+                                  android:clickable="true"
+                                  android:focusable="true"
+                    >
+
+                        <ImageView android:layout_width="30dp" android:layout_height="30dp"
+                                   android:src="@drawable/coupons4"
+                                   android:contentDescription="@string/todo"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                  android:text="10월의혜택"
+                                  android:layout_marginTop="2dp"
+                                  android:textSize="10sp"
+                                  android:textStyle="bold"
+                                  android:textColor="@color/black"
+
+                        />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                          android:background="@color/white"
+
+            >
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="25dp"
+                        android:paddingBottom="5dp"
+                        android:paddingRight="20dp"
+                        android:gravity="center_vertical"
+                >
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                                  android:layout_weight="1"
+                                  android:orientation="vertical"
+                    >
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+
+                                  android:text="당신의 취향저격 BEST"
+                                  android:textSize="14sp"
+                                  android:textColor="@color/black"
+                                  android:textStyle="bold"
+                        />
+
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                  android:textSize="10sp"
+                                  android:text="관심 상품 인근 인기숙소 추천" />
+
+                    </LinearLayout>
+
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:textSize="12sp"
+                              android:text="전체보기"
+                              android:textColor="@color/material_dynamic_primary50"
+                              android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <include layout="@layout/ranking_view" />
+
+
+            <include layout="@layout/footer"/>
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

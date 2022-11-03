@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:background="@color/white"
+              android:paddingBottom="20dp"
+              android:layout_height="wrap_content">
+
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:paddingTop="5dp"
+                  android:paddingBottom="5dp"
+                  android:clickable="true"
+                  android:focusable="true"
+                  android:background="@drawable/ripple_no_border"
+    >
+
+
+        <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                   android:src="@drawable/coupon6"
+                   android:scaleType="fitXY"
+        />
+
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:textSize="12sp"
+                  android:textColor="@color/black"
+                  android:id="@+id/quick_item_text"
+                  android:layout_marginTop="5dp"
+                  android:text="야놀자라이브"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:paddingTop="5dp"
+                  android:paddingBottom="5dp"
+                  android:clickable="true"
+                  android:focusable="true"
+                  android:background="@drawable/ripple_no_border"
+    >
+
+
+        <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                   android:src="@drawable/coupon7"
+                   android:scaleType="fitXY"
+        />
+
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:textSize="12sp"
+                  android:textColor="@color/black"
+                  android:id="@+id/coupon2"
+                  android:layout_marginTop="5dp"
+                  android:text="나만의쿠폰"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:paddingTop="5dp"
+                  android:paddingBottom="5dp"
+                  android:clickable="true"
+                  android:focusable="true"
+                  android:background="@drawable/ripple_no_border"
+    >
+
+
+        <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                   android:src="@drawable/coupon8"
+                   android:scaleType="fitXY"
+        />
+
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:textSize="12sp"
+                  android:textColor="@color/black"
+                  android:layout_marginTop="5dp"
+                  android:text="선착순쿠폰"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:paddingTop="5dp"
+                  android:paddingBottom="5dp"
+                  android:clickable="true"
+                  android:focusable="true"
+                  android:background="@drawable/ripple_no_border"
+    >
+
+
+        <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                   android:src="@drawable/coupon9"
+                   android:scaleType="fitXY"
+        />
+
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:textSize="12sp"
+                  android:textColor="@color/black"
+                  android:layout_marginTop="5dp"
+                  android:text="무한쿠폰룸"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:paddingTop="5dp"
+                  android:paddingBottom="5dp"
+                  android:clickable="true"
+                  android:focusable="true"
+                  android:background="@drawable/ripple_no_border"
+    >
+
+
+        <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                   android:src="@drawable/coupon10"
+                   android:scaleType="fitXY"
+        />
+
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:textSize="12sp"
+                  android:textColor="@color/black"
+                  android:layout_marginTop="5dp"
+                  android:text="Top랭킹"
+        />
+
+    </LinearLayout>
+</LinearLayout>

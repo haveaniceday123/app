@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:paddingTop="20dp"
+              android:paddingLeft="20dp"
+              android:paddingRight="20dp"
+              android:paddingBottom="70dp"
+              android:background="#f5f5f5"
+              android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/ic_igo_gray"
+        />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textSize="11sp"
+                  android:layout_weight="1"
+                  android:textColor="#bdbdbd"
+                  android:textStyle="bold"
+                  android:gravity="right"
+                  android:text="사업자정보" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="개인정보처리방침"
+                  android:padding="3dp"
+                  android:layout_marginRight="6dp"
+                  android:textSize="9sp"
+                  android:textStyle="bold"
+                  android:background="@drawable/gray_button"
+                  />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="청소년 보호정책"
+                  android:padding="3dp"
+                  android:layout_marginRight="6dp"
+                  android:textSize="9sp"
+                  android:background="@drawable/gray_button"
+        />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="서비스 이용약관"
+                  android:padding="3dp"
+                  android:layout_marginRight="6dp"
+                  android:textSize="9sp"
+                  android:background="@drawable/gray_button"
+        />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="위치정보 이용약관"
+                  android:padding="3dp"
+                  android:layout_marginRight="6dp"
+                  android:textSize="9sp"
+                  android:background="@drawable/gray_button"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="사업자 정보확인"
+                  android:padding="3dp"
+                  android:layout_marginRight="6dp"
+                  android:textSize="9sp"
+                  android:background="@drawable/gray_button"
+        />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="전자금융거래 이용약관"
+                  android:padding="3dp"
+                  android:layout_marginRight="6dp"
+                  android:textSize="9sp"
+                  android:background="@drawable/gray_button"
+        />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="전자금융거래 이용자 유의사항"
+                  android:padding="3dp"
+                  android:layout_marginRight="6dp"
+                  android:textSize="9sp"
+                  android:background="@drawable/gray_button"
+        />
+
+        
+
+    </LinearLayout>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:textSize="9sp"
+              android:layout_marginTop="12sp"
+              android:text="(주)야놀자는 통신판매중개자로서 통신판매의 당사자가 아니며 상품의 예약, 이용 및 환불 등과 관련한 의무와 책임은 각 판매자에게 있습니다."
+    />
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:textSize="9sp"
+              android:layout_marginTop="12sp"
+              android:text="(주) 야놀자가 소유/운영/관리하는 웹사이트 및 앱 내의 상품/판매자/이벤트 정보, 디자인 및 화면의 구성, UI를 포함하여 일체의 콘텐츠에 대한 무단 복제, 배포, 방송 또는 전송, 스크래핑 등의 행위는 저작권법 및 콘텐츠산업 진흥법 등 관련 법령에 의하여 엄격히 금지됩니다."
+    />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="콘텐츠 산업 진흥법에 따른 표시"
+              android:padding="3dp"
+              android:layout_marginRight="6dp"
+              android:layout_marginTop="12sp"
+              android:textSize="9sp"
+              android:background="@drawable/gray_button"
+    />
+
+
+</LinearLayout>
